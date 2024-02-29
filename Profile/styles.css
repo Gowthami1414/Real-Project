@@ -1,0 +1,43 @@
+/* Add your styles for different components here */
+.app {
+    display: flex; /* Allow side-by-side layout */
+  }
+  
+  .main-container {
+    display: flex;
+    flex-grow: 1; /* Allow main content to fill remaining space */
+  }
+  
+  .profile-container {
+    width: 256px; /* Set static width for profile container */
+    height: 834px; /* Set static height for profile container */
+    background-color: #f0f0f0; /* Optional background color for profile container */
+    border: 1px solid #ddd; /* Optional border for profile container */
+    /* Additional styles for profile container */
+  }
+  
+  .profile-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .profile-option {
+    padding: 10px 15px;
+    cursor: pointer;
+    /* Additional styles for profile options */
+  }
+  
+  .profile-option.active {
+    background-color: #ddd; /* Highlight active option */
+  }
+  
+  .profile-content {
+    padding: 10px;
+    /* Additional styles for profile content */
+  }
+  
+  .right-content {
+    flex: 1; /* Allow right content to fill remaining space */
+  }  /* Additional styles for right content */
+  
