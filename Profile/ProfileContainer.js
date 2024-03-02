@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import youngManImage from '../../components/Profile/images/young man holding laptop and pointing up.png';
 import userImage from '../../components/Profile/images/user.png';
 import familyImage from '../../components/Profile/images/Defend Family.png';
@@ -16,7 +17,7 @@ const ProfileContainer = () => {
       </div>
       <div style={{ marginTop: '8px',display: 'inline-flex', alignItems: 'center'}}>
         <img src={familyImage} alt="Family" style={{ width: '40px', height: '40px', marginRight: '20px' }} />
-        <span>Family Details</span>
+        <Link to="/familydetails"><li>Family Details</li></Link>
       </div>
       <div style={{ marginTop: '8px',display: 'inline-flex', alignItems: 'center'}}>
         <img src={employeeImage} alt="Family" style={{ width: '40px', height: '40px', marginRight: '20px' }} />
